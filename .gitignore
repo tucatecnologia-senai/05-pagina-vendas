@@ -1,0 +1,78 @@
+# ─── SISTEMA OPERACIONAL ────────────────────────────────────────────────────────
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+.Spotlight-V100
+.Trashes
+
+# Linux
+*~
+
+# ─── AMBIENTE & SEGREDOS ────────────────────────────────────────────────────────
+.env
+.env.local
+.env.development
+.env.staging
+.env.production
+.env.*.local
+*.pem
+*.key
+*.p12
+*.pfx
+secrets.json
+config.local.js
+
+# ─── NODE.JS (caso use ferramentas de build futuramente) ──────────────────────
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+package-lock.json
+yarn.lock
+.npm
+.yarn/
+
+# ─── BUILD / DIST ───────────────────────────────────────────────────────────────
+dist/
+build/
+out/
+.cache/
+.parcel-cache/
+.vite/
+
+# ─── LOGS ───────────────────────────────────────────────────────────────────────
+logs/
+*.log
+*.log.*
+
+# ─── EDITORES & IDEs ───────────────────────────────────────────────────────────
+.vscode/settings.json
+.vscode/launch.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+*.swo
+*.tmp
+
+# ─── FERRAMENTAS DE AGENTES / IA ────────────────────────────────────────────────
+# A pasta .agents contém skills e configs do agente de IA — NÃO versionar
+.agents/
+
+# ─── ARQUIVOS TEMPORÁRIOS DO PROJETO ─────────────────────────────────────────
+screen.png
+*.bak
+*.old
+*.orig
